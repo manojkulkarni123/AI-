@@ -125,3 +125,18 @@ def main():
 
 if __name__ == "__main__":
     main()
+"""
+=== Resolution in First-Order Logic ===
+
+Enter number of clauses in KB: 2
+Clause 1: P(x)
+Clause 2: ~P(a)
+
+Enter query: P(a)
+
+--- RESOLUTION STEPS ---
+Derived empty clause (contradiction). 
+
+--- RESULT ---
+The query CAN be inferred from the KB 
+"""
