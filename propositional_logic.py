@@ -62,3 +62,13 @@ if __name__ == "__main__":
 
     result = entails(premises, conclusion, variables)
     print(f"\nDoes the set of premises entail the conclusion? {result}")
+"""
+Enter the list of propositional variables (comma-separated): p,q
+Enter the number of premises: 1
+Enter premise 1: AND(p, q)
+Enter the conclusion formula: p
+
+Does the set of premises entail the conclusion? True
+
+
+"""
