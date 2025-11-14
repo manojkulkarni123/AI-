@@ -48,3 +48,12 @@ print("Initial Facts:", facts)
 result = forward_chain(facts, rules, query)
 print("\nQuery:", query)
 print("Result:", "PROVED" if result else "NOT PROVED")
+
+"""
+Initial Facts: {'Human(Socrates)'}
+Inferred: Mortal(Socrates)
+Inferred: Dies(Socrates)
+
+Query: Mortal(Socrates)
+Result: PROVED
+"""
