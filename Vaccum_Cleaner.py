@@ -32,3 +32,28 @@ for i in range(2):
 print("Final Environment:")
 for row in environment:
     print(row)
+"""
+
+Initial Environment:
+['D', 'C']
+['C', 'D']
+
+Starting Cleaning Process...
+
+Vacuum at position (0,0) - Status: D
+Percept: Dirty -> Action: Clean the cell.
+
+Vacuum at position (0,1) - Status: C
+Percept: Clean -> Action: Move to next cell.
+
+Vacuum at position (1,0) - Status: C
+Percept: Clean -> Action: Move to next cell.
+
+Vacuum at position (1,1) - Status: D
+Percept: Dirty -> Action: Clean the cell.
+
+Final Environment:
+['C', 'C']
+['C', 'C']
+
+"""
