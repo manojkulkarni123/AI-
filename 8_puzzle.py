@@ -95,4 +95,54 @@ if solution:
         print()
     print("Total Steps:", len(solution)-1)
 else:
+
     print("No solution found.")
+
+"""
+START STATE:
+[1, 2, 3]
+[4, 0, 6]
+[7, 5, 8]
+
+GOAL STATE:
+[1, 2, 3]
+[4, 5, 6]
+[7, 8, 0]
+
+--------------------------------
+
+Step 1:
+[1, 2, 3]
+[4, 0, 6]
+[7, 5, 8]
+
+Step 2:
+[1, 2, 3]
+[4, 5, 6]
+[7, 0, 8]
+
+Step 3:
+[1, 2, 3]
+[4, 5, 6]
+[7, 8, 0]
+
+Goal reached!
+
+STEPS TO REACH THE GOAL:
+
+[1, 2, 3]
+[4, 0, 6]
+[7, 5, 8]
+
+[1, 2, 3]
+[4, 5, 6]
+[7, 0, 8]
+
+[1, 2, 3]
+[4, 5, 6]
+[7, 8, 0]
+
+Total Steps: 2
+
+
+"""
