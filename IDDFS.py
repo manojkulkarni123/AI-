@@ -88,3 +88,17 @@ if solution != "FAILURE":
     print(f"Solution found at depth: {depth_found}")
 else:
     print("No solution found.")
+
+"""
+
+Exploring depth: 0
+Exploring depth: 1
+Exploring depth: 2
+Exploring depth: 3
+Solution found!
+1 2 3
+4 5 6
+7 8  
+
+Solution found at depth: 3
+"""
