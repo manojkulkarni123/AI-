@@ -110,3 +110,14 @@ if __name__ == "__main__":
     else:
         print("✅ Unification successful.")
         print("Most General Unifier (MGU):", result)
+
+"""
+Enter first expression (e.g. Parent(x, John)):
+x = Parent(x, John)
+Enter second expression (e.g. Parent(Mary, y)):
+y = Parent(Mary, y)
+
+--- Unification ---
+✅ Unification successful.
+Most General Unifier (MGU): {'x': 'Mary', 'y': 'John'}
+"""
