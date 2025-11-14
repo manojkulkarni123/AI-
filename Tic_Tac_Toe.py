@@ -105,3 +105,70 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+"""
+Welcome to Tic Tac Toe! You are X, AI is O.
+
+   |   |   
+---+---+---
+   |   |   
+---+---+---
+   |   |   
+
+Enter your move (1-9): 1
+
+ X |   |   
+---+---+---
+   |   |   
+---+---+---
+   |   |   
+
+AI is making a move...
+
+ X |   |   
+---+---+---
+   | O |   
+---+---+---
+   |   |   
+
+Enter your move (1-9): 2
+
+ X | X |   
+---+---+---
+   | O |   
+---+---+---
+   |   |   
+
+AI is making a move...
+
+ X | X | O 
+---+---+---
+   | O |   
+---+---+---
+   |   |   
+
+Enter your move (1-9): 1
+That spot is already taken! Try again.
+Enter your move (1-9): 2
+That spot is already taken! Try again.
+Enter your move (1-9): 5
+That spot is already taken! Try again.
+Enter your move (1-9): 4
+
+ X | X | O 
+---+---+---
+ X | O |   
+---+---+---
+   |   |   
+
+AI is making a move...
+
+ X | X | O 
+---+---+---
+ X | O |   
+---+---+---
+ O |   |   
+
+AI wins! Better luck next time
+
+"""
