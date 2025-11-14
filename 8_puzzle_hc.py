@@ -100,4 +100,47 @@ for step in solution:
     for row in step:
         print(row)
     print()
+
 print("Total Steps Taken:", len(solution)-1)
+
+"""
+START STATE:
+[1, 2, 3]
+[4, 0, 6]
+[7, 5, 8]
+
+GOAL STATE:
+[1, 2, 3]
+[4, 5, 6]
+[7, 8, 0]
+
+--------------------------------
+
+Current State (h = 2 ):
+[1, 2, 3]
+[4, 0, 6]
+[7, 5, 8]
+
+Current State (h = 1 ):
+[1, 2, 3]
+[4, 5, 6]
+[7, 0, 8]
+
+Goal reached!
+
+STEPS TO REACH (OR CLOSE TO) GOAL:
+
+[1, 2, 3]
+[4, 0, 6]
+[7, 5, 8]
+
+[1, 2, 3]
+[4, 5, 6]
+[7, 0, 8]
+
+[1, 2, 3]
+[4, 5, 6]
+[7, 8, 0]
+
+Total Steps Taken: 2
+"""
